@@ -23,9 +23,9 @@ const Loading = () => {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-8">
           {/* Filters Skeleton */}
-          <aside className="lg:w-80 flex-shrink-0">
+          <aside className="sm:w-64 lg:w-80 flex-shrink-0">
             <div className="card p-6 animate-pulse">
               <div className="flex items-center justify-between mb-6">
                 <div className="h-6 bg-gray-200 rounded w-16"></div>
@@ -63,7 +63,7 @@ const Loading = () => {
               </div>
 
               {/* Product Grid Skeleton */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                 {[...Array(6)].map((_, i) => (
                   <div key={i} className="card-hover overflow-hidden animate-pulse">
                     {/* Product Image Skeleton */}

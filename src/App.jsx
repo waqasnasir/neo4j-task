@@ -88,8 +88,8 @@ function App() {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-col lg:flex-row gap-8">
-          <aside className="lg:w-80 flex-shrink-0">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-8">
+          <aside className="sm:w-64 lg:w-80 flex-shrink-0">
             <ProductFilters
               filters={filters}
               categories={categories}
