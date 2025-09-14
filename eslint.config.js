@@ -26,4 +26,12 @@ export default defineConfig([
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
   },
+  {
+    files: ['**/*.css'],
+    rules: {
+      'at-rule-no-unknown': ['error', {
+        ignoreAtRules: ['theme', 'apply', 'layer', 'tailwind']
+      }],
+    },
+  },
 ])

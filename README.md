@@ -59,3 +59,7 @@ You are not allowed to use AI assistance in the follow-up interview.
 
 Feel free to send a link to the source code + working example in the way you prefer (GH + hosted page, or on StackBlitz or similar).  
 It's also ok so hand in the assignment via a .zip file with the source code that can be run locally.
+
+
+
+it put inline styling somwhere and somewhere it used class names
